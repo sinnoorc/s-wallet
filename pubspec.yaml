@@ -1,0 +1,52 @@
+name: swallet
+description: A minimal money manager
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  firebase_core: ^1.20.0
+  get_storage: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/fonts/
+    - assets/json/
+
+  fonts:
+    - family: Chillax
+      fonts:
+        - asset: assets/fonts/Chillax-Regular.otf
+        - asset: assets/fonts/Chillax-SemiBold.otf
+          weight: 600
+          style: normal
+        - asset: assets/fonts/Chillax-Medium.otf
+          weight: 500
+          style: normal
+        - asset: assets/fonts/Chillax-Bold.otf
+          weight: 400
+          style: normal
+        - asset: assets/fonts/Chillax-Light.otf
+          weight: 300
+          style: normal
+        - asset: assets/fonts/Chillax-ExtraLight.otf
+          weight: 200
+          style: normal
