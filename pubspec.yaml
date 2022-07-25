@@ -15,12 +15,19 @@ dependencies:
   get: ^4.6.5
   firebase_core: ^1.20.0
   get_storage: ^2.0.3
+  material_color_generator: ^1.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.9.3
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/swallet.png"
 
 flutter:
   uses-material-design: true
