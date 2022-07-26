@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:swallet/module/introduction_page.dart';
 
+import '../module/introduction_page.dart';
 import '../module/welcome_page.dart';
 
 class Routes {
