@@ -19,20 +19,21 @@ class AppTheme {
       );
 
   static ThemeData get darkTheme => ThemeData(
-      useMaterial3: true,
-      primarySwatch: generateMaterialColor(color: AppConstants.kPrimaryColor),
-      fontFamily: 'Chillax',
-      scaffoldBackgroundColor: Colors.black,
-      brightness: Brightness.dark,
-      appBarTheme: const AppBarTheme(
-        systemOverlayStyle: SystemUiOverlayStyle(
-          statusBarColor: Colors.transparent,
-          statusBarIconBrightness: Brightness.light,
-        ),
-      ),
-      textTheme: const TextTheme().apply(
-        bodyColor: AppConstants.kPrimaryColor,
-        displayColor: AppConstants.kPrimaryColor,
+        useMaterial3: true,
+        primarySwatch: generateMaterialColor(color: AppConstants.kPrimaryColor),
         fontFamily: 'Chillax',
-      ));
+        scaffoldBackgroundColor: Colors.black,
+        brightness: Brightness.dark,
+        appBarTheme: const AppBarTheme(
+          systemOverlayStyle: SystemUiOverlayStyle(
+            statusBarColor: Colors.transparent,
+            statusBarIconBrightness: Brightness.light,
+          ),
+        ),
+        textTheme: const TextTheme().apply(
+          bodyColor: AppConstants.kPrimaryColor,
+          displayColor: AppConstants.kPrimaryColor,
+          fontFamily: 'Chillax',
+        ),
+      );
 }
